@@ -1,14 +1,102 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ordered and Unordered List</title>
+<title>My Favourite Technologies</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #101827;
+    color: white;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #00e5ff;
+    text-shadow: 0 0 10px #008cff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.box {
+    background: #1e293b;
+    border: 2px solid #00bcd4;
+    border-radius: 15px;
+    padding: 20px 30px;
+    width: 260px;
+    box-shadow: 0 0 12px #003b55;
+}
+
+h2 {
+    color: #00e5ff;
+    font-size: 20px;
+}
+
+li {
+    padding: 8px;
+    margin: 5px 0;
+}
+
+li::marker {
+    color: #00e5ff;
+}
+
+li:hover {
+    color: #00e5ff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #94a3b8;
+}
+</style>
 </head>
 
 <body>
 
-/* Write your HTML code to a page with ordered list and unordered list */
+<h1>My Favourite Technologies</h1>
+
+<div class="container">
+
+    <div class="box">
+        <h2>Ordered List: Programming</h2>
+        <ol>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C Programming</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+        </ol>
+    </div>
+
+    <div class="box">
+        <h2>Unordered List: Web Development</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    Learn Today • Build Tomorrow
+</footer>
 
 </body>
 </html>
